@@ -1,0 +1,20 @@
+.Header{
+    min-height:  50px;
+    background-color: #947070;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #231e1e;
+    margin: 12px;
+    font-size: 20px;
+}
+a:hover{
+    font-size: 25px;
+    margin: 1px;
+}

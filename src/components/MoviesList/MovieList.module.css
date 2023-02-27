@@ -1,0 +1,11 @@
+.MovieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.itemMovieList{
+    width: 30%;
+    display: flex;
+
+}
+

@@ -1,0 +1,13 @@
+.movieCard{
+
+
+   margin: 10px;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    height: 100%;
+}
