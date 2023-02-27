@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from 'react';
-
-import css from './Header.module.css'
-import {Link, useNavigate} from "react-router-dom";
-import {movieActions} from "../../redux/slices";
 import {useDispatch, useSelector} from "react-redux";
+import {Link, useNavigate} from "react-router-dom";
+
+
+import {movieActions} from "../../redux/slices";
+import css from './Header.module.css'
 import {SearchPage} from "../../pages";
 import {UserInfo} from "../UserInfo/UserInfo";
 
@@ -21,16 +22,14 @@ const Header = () => {
 
     const handleChange = (value) => {
         setQuery(value)
-        console.log(value, "value")
+
     }
 
 
     const searchMovie = (query) => {
-        console.log(query, 'params')
         dispatch(movieActions.searchMovieByTitle(query))
-        console.log(moviesSearch, 'mosearch')
-        // navigate('/')
-    }
+
+           }
 
 
 

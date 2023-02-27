@@ -1,11 +1,11 @@
 import React from 'react';
-import css from './MovieListCard.module.css'
 
+import css from './MovieListCard.module.css'
 import StarRatings from "react-star-ratings/build/star-ratings";
 
 const MoviesListCard = ({movie, onMovieClick}) => {
 
-    const {id, original_language, original_title, overview, poster_path, release_date, vote_average}=movie
+    const {original_language, original_title, overview, poster_path, release_date, vote_average}=movie
 
     return (
 

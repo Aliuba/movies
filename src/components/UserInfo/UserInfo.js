@@ -5,8 +5,6 @@ const UserInfo = () => {
     return (
         <div>
             <h3> <BiUserCircle /> Liuba </h3>
-
-
         </div>
     );
 };

@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {genreActions} from "../../redux/slices";
-import css from './GenreBadges.module.css'
 import {useNavigate} from "react-router-dom";
+
+import {genreActions} from "../../redux/slices";
+
 
 const GenreBadges = () => {
     const dispatch = useDispatch()

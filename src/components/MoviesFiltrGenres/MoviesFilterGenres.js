@@ -1,11 +1,11 @@
 import React, {useEffect} from 'react';
 import {useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
-
+import StarRatings from "react-star-ratings/build/star-ratings";
 
 import {genreActions, movieActions} from "../../redux/slices";
 
-import StarRatings from "react-star-ratings/build/star-ratings";
+
 
 const MoviesFilterGenres = () => {
 

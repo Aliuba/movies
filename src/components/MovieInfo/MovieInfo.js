@@ -1,11 +1,12 @@
 import React from 'react';
 import {useSelector} from "react-redux";
+import Badge from "react-badges";
+import {useNavigate} from "react-router-dom";
 
 import css from "./MovieInfo.module.css"
 import StarRatings from "react-star-ratings/build/star-ratings";
 
-import Badge from "react-badges";
-import {useNavigate} from "react-router-dom";
+
 
 
 const MovieInfo = () => {
