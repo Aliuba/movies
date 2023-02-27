@@ -3,6 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {useNavigate} from "react-router-dom";
 
 import {genreActions} from "../../redux/slices";
+import css from './GenreBadges.module.css'
 
 
 const GenreBadges = () => {
